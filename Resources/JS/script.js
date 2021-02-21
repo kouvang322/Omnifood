@@ -103,31 +103,31 @@ $(document).ready(function () {
     });
 
 
-    // $(window).resize(function(){
+    $(window).resize(function(){
 
-    //     var nav = $('.js--main-nav');
+        var nav = $('.js--main-nav');
 
-    //     var icon = $('.js--nav-icon i');
+        var icon = $('.js--nav-icon i');
 
-    //     if ($(window).width() > 767){
+        if ($(window).width() > 767){
 
-    //     nav.css("display", "block");
+        nav.css("display", "block");
 
-    //     icon.addClass('ion-close-round');
+        icon.addClass('ion-close-round');
 
-    //     icon.removeClass('ion-navicon-round');
+        icon.removeClass('ion-navicon-round');
 
-    //     } else {
+        } else {
 
-    //     nav.css("display", "none");
+        nav.css("display", "none");
 
-    //     icon.addClass('ion-navicon-round');
+        icon.addClass('ion-navicon-round');
 
-    //     icon.removeClass('ion-close-round');
+        icon.removeClass('ion-close-round');
 
-    //     }
+        }
 
-    //     });
+        });
 
 
 });

@@ -74,7 +74,7 @@
     }
     
     .main-nav li a:link,
-    .main-nav li a:active,{
+    .main-nav li a:active{
         display: block;
         border: 0;
         padding: 10px 0;

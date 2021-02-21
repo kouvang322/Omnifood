@@ -23,7 +23,10 @@ body{
 
 
 
-.clearfix {zoom, 1}
+.clearfix{
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
